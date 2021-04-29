@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucij\\Desktop\\Skola\\NIOP\\Knjiznica\\Knjiznica01\\Knjiznica01\\Knjiznica01.csproj",
+      "projectUniqueName": "C:\\Users\\lucij\\Desktop\\Skola\\NIOP\\Knjiznica\\Knjiznica\\Knjiznica01\\Knjiznica01.csproj",
       "projectName": "Knjiznica01",
-      "projectPath": "C:\\Users\\lucij\\Desktop\\Skola\\NIOP\\Knjiznica\\Knjiznica01\\Knjiznica01\\Knjiznica01.csproj",
+      "projectPath": "C:\\Users\\lucij\\Desktop\\Skola\\NIOP\\Knjiznica\\Knjiznica\\Knjiznica01\\Knjiznica01.csproj",
       "packagesPath": "C:\\Users\\lucij\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucij\\Desktop\\Skola\\NIOP\\Knjiznica\\Knjiznica01\\Knjiznica01\\obj\\",
+      "outputPath": "C:\\Users\\lucij\\Desktop\\Skola\\NIOP\\Knjiznica\\Knjiznica\\Knjiznica01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lucij\\AppData\\Roaming\\NuGet\\NuGet.Config",

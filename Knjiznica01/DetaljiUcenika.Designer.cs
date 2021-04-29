@@ -30,18 +30,18 @@ namespace Knjiznica01
         private void InitializeComponent()
         {
             this.OIB = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.OIBtextbox = new System.Windows.Forms.TextBox();
             this.Ime = new System.Windows.Forms.Label();
             this.Prezime = new System.Windows.Forms.Label();
             this.Adresa = new System.Windows.Forms.Label();
             this.Telefon = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.IMEtextbox = new System.Windows.Forms.TextBox();
+            this.PREZIMEtextbox = new System.Windows.Forms.TextBox();
+            this.ADRESAtextbox = new System.Windows.Forms.TextBox();
+            this.TELEFONtextbox = new System.Windows.Forms.TextBox();
             this.Razred = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.RazredComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // OIB
@@ -54,13 +54,13 @@ namespace Knjiznica01
             this.OIB.TabIndex = 0;
             this.OIB.Text = "OIB";
             // 
-            // textBox1
+            // OIBtextbox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(156, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(208, 34);
-            this.textBox1.TabIndex = 1;
+            this.OIBtextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.OIBtextbox.Location = new System.Drawing.Point(156, 42);
+            this.OIBtextbox.Name = "OIBtextbox";
+            this.OIBtextbox.Size = new System.Drawing.Size(208, 34);
+            this.OIBtextbox.TabIndex = 1;
             // 
             // Ime
             // 
@@ -103,37 +103,37 @@ namespace Knjiznica01
             this.Telefon.TabIndex = 5;
             this.Telefon.Text = "Telefon";
             // 
-            // textBox2
+            // IMEtextbox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(156, 101);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(208, 34);
-            this.textBox2.TabIndex = 6;
+            this.IMEtextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.IMEtextbox.Location = new System.Drawing.Point(156, 101);
+            this.IMEtextbox.Name = "IMEtextbox";
+            this.IMEtextbox.Size = new System.Drawing.Size(208, 34);
+            this.IMEtextbox.TabIndex = 6;
             // 
-            // textBox3
+            // PREZIMEtextbox
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(156, 159);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(208, 34);
-            this.textBox3.TabIndex = 7;
+            this.PREZIMEtextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.PREZIMEtextbox.Location = new System.Drawing.Point(156, 159);
+            this.PREZIMEtextbox.Name = "PREZIMEtextbox";
+            this.PREZIMEtextbox.Size = new System.Drawing.Size(208, 34);
+            this.PREZIMEtextbox.TabIndex = 7;
             // 
-            // textBox4
+            // ADRESAtextbox
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox4.Location = new System.Drawing.Point(156, 221);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(335, 34);
-            this.textBox4.TabIndex = 8;
+            this.ADRESAtextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ADRESAtextbox.Location = new System.Drawing.Point(156, 221);
+            this.ADRESAtextbox.Name = "ADRESAtextbox";
+            this.ADRESAtextbox.Size = new System.Drawing.Size(335, 34);
+            this.ADRESAtextbox.TabIndex = 8;
             // 
-            // textBox5
+            // TELEFONtextbox
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox5.Location = new System.Drawing.Point(156, 278);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(208, 34);
-            this.textBox5.TabIndex = 9;
+            this.TELEFONtextbox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.TELEFONtextbox.Location = new System.Drawing.Point(156, 278);
+            this.TELEFONtextbox.Name = "TELEFONtextbox";
+            this.TELEFONtextbox.Size = new System.Drawing.Size(208, 34);
+            this.TELEFONtextbox.TabIndex = 9;
             // 
             // Razred
             // 
@@ -145,14 +145,6 @@ namespace Knjiznica01
             this.Razred.TabIndex = 10;
             this.Razred.Text = "Razred";
             // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox6.Location = new System.Drawing.Point(156, 351);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(74, 34);
-            this.textBox6.TabIndex = 11;
-            // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -163,23 +155,32 @@ namespace Knjiznica01
             this.button1.Text = "OK";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // RazredComboBox
+            // 
+            this.RazredComboBox.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RazredComboBox.FormattingEnabled = true;
+            this.RazredComboBox.Location = new System.Drawing.Point(156, 351);
+            this.RazredComboBox.Name = "RazredComboBox";
+            this.RazredComboBox.Size = new System.Drawing.Size(101, 36);
+            this.RazredComboBox.TabIndex = 13;
+            // 
             // DetaljiUcenika
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 450);
+            this.Controls.Add(this.RazredComboBox);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.Razred);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TELEFONtextbox);
+            this.Controls.Add(this.ADRESAtextbox);
+            this.Controls.Add(this.PREZIMEtextbox);
+            this.Controls.Add(this.IMEtextbox);
             this.Controls.Add(this.Telefon);
             this.Controls.Add(this.Adresa);
             this.Controls.Add(this.Prezime);
             this.Controls.Add(this.Ime);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.OIBtextbox);
             this.Controls.Add(this.OIB);
             this.Name = "DetaljiUcenika";
             this.Text = "DetaljiUcenika";
@@ -191,17 +192,17 @@ namespace Knjiznica01
         #endregion
 
         private System.Windows.Forms.Label OIB;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox OIBtextbox;
         private System.Windows.Forms.Label Ime;
         private System.Windows.Forms.Label Prezime;
         private System.Windows.Forms.Label Adresa;
         private System.Windows.Forms.Label Telefon;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox IMEtextbox;
+        private System.Windows.Forms.TextBox PREZIMEtextbox;
+        private System.Windows.Forms.TextBox ADRESAtextbox;
+        private System.Windows.Forms.TextBox TELEFONtextbox;
         private System.Windows.Forms.Label Razred;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox RazredComboBox;
     }
 }
